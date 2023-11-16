@@ -23,8 +23,9 @@ public class Fa {
         return viz;
     }
 
-    public Kert KertAllapot(){
-        return kertAllapot;
+    public void KertAllapot(){
+        System.out.println("A/Az " + fajta  +" fának " + ontoz + " szüksége vízre.");
+
     }
 
     public Kert Ontoz(){
