@@ -26,11 +26,13 @@ public class Virag {
     public void KertAllapot(){
         System.out.println("A/Az " + szin +" virágnak " + ontoz + " szüksége vízre.");
     }
-    public String Ontoz(String v) {
+    public String Ontoz(String v, String n) {
         if (viz == 5 || viz > 5) {
+            n = "nincs";
+            return n;
+        }else {
             v = "van";
             return v;
         }
-        return null;
     }
 }
